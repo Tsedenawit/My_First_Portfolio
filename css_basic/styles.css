@@ -1,11 +1,13 @@
 body  {
     display: flex;
     flex-direction: column;
+    background-color: beige;
 }
 main{
     display: flex;
     flex-direction: row;
     flex: auto;
+    background-color: azure;
 }
 article{
     flex: 2;
@@ -14,4 +16,10 @@ article{
 aside{
     flex: 1;
     overflow-y: auto
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
 }
